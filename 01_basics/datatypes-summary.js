@@ -24,6 +24,28 @@ let storefunction = function(){
     console.log("hello javascript");
 }
 
-console.log(typeof students1);
+// console.log(typeof students1);
+// ***********************MEMORIES***********************
+// stack(primitive)-copy
+// heap(non-primitive)-refrence
+
+let nameSt = "hiteshi"
+let anothername = nameSt
+anothername = 1899
+
+// console.log(anothername);
+
+// heap
+let memory1 ={
+    email:"gupta67@2gmail.com",
+    age:25,
+}
+
+let memory2 = memory1;
+memory2.age = 27;
+console.log(memory2);
+
+
+
 
 
