@@ -17,7 +17,7 @@ console.log(newDate.getFullYear());
 console.log(newDate.toLocaleString('default',{
     weekday:"long"
    
-}));
+})); 
 
 
 
