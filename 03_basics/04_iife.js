@@ -7,7 +7,7 @@
 })();
 
 ((age)=>{
-    // UNMAED IIFE
+    // UNNAmED IIFE
     console.log(`my function 2nd called ${age}`);
     
-})(20)
+})(20);  
